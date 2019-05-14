@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "virtual/bin/python",
+    "python.linting.pep8Enabled": true,
+    "python.linting.enabled": true
+}
