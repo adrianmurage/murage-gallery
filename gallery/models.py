@@ -26,8 +26,8 @@ class Image(models.Model):
     class to define image properties
     '''
     image = models.ImageField(upload_to='images_storage_path/')
-    image_name = models.CharField(max_lenth=30)
-    image_description = models.CharField(max_lenth=150)
+    image_name = models.CharField(max_length=30)
+    image_description = models.CharField(max_length=150)
     image_location = models.ForeignKey(Location)
     image_category = models.ForeignKey(Category)
 
