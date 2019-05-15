@@ -1,0 +1,16 @@
+<nav class="navbar sticky-top navbar-dark">
+    <a class="navbar-brand" href="{% url 'gallery_home' %}">THE GALLERY</a>
+    <div class="col-sm-8 col-md-4 ">
+        <form action="{% url 'search_results' %}" class="navbar-form">
+            <div class="input-group">
+                <div class="input-group-btn">
+                    <button class="btn btn-default btn-primary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <input type="text" class="form-control" placeholder="Search for Image by Category" name="category">
+            </div>
+        </form>
+    </div>
+</nav>
+<br>

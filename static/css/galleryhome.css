@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+* {
+    box-sizing: border-box;
+}
+
+.edit{
+    font-family: 'Ubuntu', Open sans-serif;
+}
+body {
+    margin: 0;
+}
+
+.myrow {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+/* Create three column layout for larger screens that sit next to each other, mostly, lol*/
+.mycolumn{
+    -ms-flex: 33.333%; /* IE10 */
+    flex: 33.333%;
+    padding: 0 9px;
+}
+
+.mycolumn img{
+    margin-top: 12px;
+    vertical-align: middle;
+}
+
+/* Create two column layout for medium sized screens*/
+@media screen and (max-width:800px){
+    .mycolumn {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%
+    }
+}
+
+/* Create one column layout for smaller screens*/
+@media screen and (max-width:500px){
+    .mycolumn {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
