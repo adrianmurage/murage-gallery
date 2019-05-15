@@ -23,7 +23,6 @@ NO known bugs as at the moment please reach to us if you see any.
 | __Behavior__  | __Input example__ | __Output example__ |
 | ------------- | ----------------- | ------------------ |
 | The user should be able to view all The Photos on the home page  | "https://www.com"   | photos  |
-| The application should give the user an option to view photos based on location| Karen | images taken in karen |
 | The application should be able to save uploaded images | image | status saved|ok |
 | The user should be able to search any photo based on category | search | searched photo |
 | The application should restrict only the user with privileges to access admin panel | user/admin | unauthorized/access |
