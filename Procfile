@@ -1,0 +1,1 @@
+web: gunicorn murage_gallery.wsgi --log-file -
