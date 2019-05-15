@@ -2,7 +2,7 @@
 #### This is a Python web application using Django  framework and Postgresql, 2019
 #### By **[mainamurage](https://github.com/mainamurage)**
 ## Description
-This is My personal web application which acts as Gallery store, Where i can upload images based on location or either category,Other users can see and view my images they can search and select by location. Users can view a single image with all the details about the image, Simple terms an online Gallery
+This is My personal web application which acts as Gallery store, Where i can upload images based on category,Other users can see and view my images they can search by category. Also, users can view a single image with all the details about the image
 ## Setup/Installation Requirements
 * A PC mainly with an Operating system.
 * Python3.6 or later is installed in your PC.
