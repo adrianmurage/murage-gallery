@@ -30,9 +30,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -100,7 +97,7 @@ if config('MODE')=='dev':
 else:
     DATABASES = {
         'default': dj_database_url.config(
-         default=config("DATABASE_URL")
+            default=config("DATABASE_URL")
         )
     }
 db_from_env = dj_database_url.config(conn_max_age=500)
